@@ -1,0 +1,50 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  padding: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  color: white;
+  font-family: roboto;
+  font-size: 50px;
+  font-weight: bold;
+}
+label {
+  color: white;
+  font-family: roboto;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+}
+
+.paragraph {
+  color: #1d976c;
+  background-color: white;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.image {
+  height: 500px;
+}
